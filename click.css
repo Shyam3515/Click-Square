@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.colorSquare{
+    height:100px;
+    width:100px;
+}
+#red,#yellow,#green{
+    border:none;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+#red,#yellow,#green,#clear:hover{
+cursor:pointer;
+}
+
+#clear{
+    background:gray;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin:20px;
+    margin-left:112px;
+    padding:18px
+}
+  
